@@ -2,28 +2,23 @@
 .title {
     text-decoration: none;
     font-size: 18px;
-    font-weight: 700;
-    /* düzeltildi: px kaldırıldı */
     color: #2E2F42;
     font-family: 'Raleway', sans-serif;
-    line-height: 1.2;
-    /* px yerine çarpan kullanıldı */
+    line-height: 21%;
+    font-weight: 700;
     letter-spacing: 3%;
 }
 
 .title span {
     color: #4D5AE5;
 }
-
-/*.logo {
+/*.logo{
     width: 115px;
-    height: 24px;
-    position: absolute;
-    top: 24px;
-    left: 156px;
+        height: 24px;
+        top: 24px;
+        left: 156px;
 }
 */
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -32,24 +27,18 @@ body {
 nav ul {
     list-style: none;
 }
-
 nav ul li a {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    /* düzeltildi: font özelliği */
+    font: Roboto;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    /* px kaldırıldı */
-    line-height: 1.5;
-    /* px yerine çarpan kullanıldı */
+    line-height: 24%;
     letter-spacing: 2%;
 }
-
 nav ul li a:hover {
     color: #404BBF;
 }
-
 nav ul li a:active {
     color: #404BBF;
     text-decoration: underline;
@@ -57,100 +46,84 @@ nav ul li a:active {
 }
 
 /* NAVBAR- ADDRESS */
-address ul {
-    list-style: none;
+address ul{
+     list-style:none;
 }
-
 address ul li a {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    /* px yerine çarpan kullanıldı */
+    line-height: 24%;
     letter-spacing: 2%;
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     color: #434455;
 }
-
-address ul li a:hover {
+address ul li a:hover{
     color: #404BBF;
 }
-
 /* BUTTON */
-.button1 {
+.button1{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
-    /* px yerine çarpan kullanıldı */
+    line-height: 24%;
     letter-spacing: 4%;
-    color: #FFFFFF;
+    color:#FFFFFF;
     background-color: #4D5AE5;
     width: 169px;
     height: 56px;
-    border: none;
+    border:none;
     cursor: pointer;
 }
-
-.button1:hover {
+.button1:hover{
     background-color: #404BBF;
 }
-
 /* HEADER */
-h1 {
+h1{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.2;
-    /* px yerine çarpan kullanıldı */
+    line-height: 60%;
     letter-spacing: 2%;
+    
 }
-
-h3 {
-    font-family: 'Roboto', sans-serif;
+h3{
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
-    /* px yerine çarpan kullanıldı */
+    line-height: 24%;
     letter-spacing: 2%;
-    color: #2E2F42;
+    color:#2E2F42;
 }
-
-h2 {
+h2{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    /* px yerine çarpan kullanıldı */
-    letter-spacing: 2%;
-    color: #2E2F42;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40%;
+        letter-spacing: 2%;
+        color: #2E2F42;
 }
-
 /* SECTION 2 */
-p {
+p{
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    /* px yerine çarpan kullanıldı */
-    letter-spacing: 2%;
-    color: #434455;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24%;
+        letter-spacing: 2%;
+        color:#434455;
 }
-
-.section3 ul li {
+.section3 ul li{
     list-style-type: none;
 }
-
-.section4 ul li {
+.section4 ul li{
     list-style: none;
 }
-
 /* FOOTER */
 footer p {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    /* px yerine çarpan kullanıldı */
+    line-height: 24px;
     letter-spacing: 2%;
 }
