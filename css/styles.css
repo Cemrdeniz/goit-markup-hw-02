@@ -1,0 +1,77 @@
+.title {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    font-family: Raleway;
+    line-height: 21px;
+    font-weight: 700;
+    letter-spacing: 3%;
+}
+
+.title span {
+    color: #4D5AE5;
+}
+header {
+    display: flex;
+    /* Yan yana dizilmesini sağlar */
+    justify-content: space-between;
+    /* Elemanları yatayda yayarak hizalar */
+    align-items: center;
+    /* Dikeyde ortalar */
+    padding: 20px;
+    /* Üst, alt boşluk ekler */
+    background-color: #f8f9fa;
+    /* Hafif gri arka plan (opsiyonel) */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    /* Menü elemanlarını yatay hizalar */
+    gap: 20px;
+    /* Menü öğeleri arasına boşluk ekler */
+    list-style: none;
+    /* Liste işaretlerini kaldırır */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+address ul {
+    display: flex;
+    /* E-posta ve telefon bilgisini yatay hizalar */
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+address ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+}
+header{
+    width: 1440;
+        height: 72;
+        border: 1p;
+        border-width: 1px;
+}
+.navbar{
+    width: 261;
+        height: 24;
+        top: 24px;
+        left: 347px;
+        gap: 40px;
+}
