@@ -64,7 +64,7 @@ address ul li a:hover{
 }
 /* BUTTON */
 .button1{
-    font-family: 'Roboto';
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 24%;
@@ -81,7 +81,7 @@ address ul li a:hover{
 }
 /* HEADER */
 h1{
-    font-family: 'Roboto';
+    
     font-weight: 700;
     font-size: 56px;
     line-height: 60%;
@@ -89,7 +89,7 @@ h1{
     
 }
 h3{
-    font-family: 'Roboto',sans-serif;
+   
     font-weight: 500;
     font-size: 20px;
     line-height: 24%;
@@ -97,7 +97,7 @@ h3{
     color:#2E2F42;
 }
 h2{
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 700;
         font-size: 36px;
         line-height: 40%;
@@ -106,7 +106,7 @@ h2{
 }
 /* SECTION 2 */
 p{
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 400;
         font-size: 16px;
         line-height: 24%;
@@ -121,7 +121,7 @@ p{
 }
 /* FOOTER */
 footer p {
-    font-family: 'Roboto';
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
